@@ -305,6 +305,7 @@ ul {
         margin: 25px auto 20px auto;
         padding: 0.5rem;
         min-height: 33vh;
+        overflow-x: hidden;
     }
 
     header {
