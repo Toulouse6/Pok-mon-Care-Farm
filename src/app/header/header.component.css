@@ -8,8 +8,7 @@ header {
     max-width: 50rem;
     margin: 1rem auto 1.5rem auto;
     text-align: center;
-    background: linear-gradient(rgba(43, 63, 86, 0.3), rgba(30, 48, 64, 1)),
-        url('/assets/images/tenor-bg.gif');
+    background: linear-gradient(rgba(43, 63, 86, 0.3), rgba(30, 48, 64, 1));
     background-size: cover;
     background-position: center;
     padding: 1rem;
