@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class AudioService {
 
     // background Music
-    private backgroundAudio = new Audio('pokemon-evolution-lab/assets/audio/retro-game1.mp3');
+    private backgroundAudio = new Audio('pokemon-evolution-lab/src/assets/audio/retro-game1.mp3');
 
     playMusic(): void {
         try {
@@ -32,7 +32,7 @@ export class AudioService {
     }
 
     playSoundEffect(soundFile: string): void {
-        const soundEffect = new Audio(`/pokemon-evolution-lab/assets/audio/${soundFile}`);
+        const soundEffect = new Audio(`/pokemon-evolution-lab/src/assets/audio/${soundFile}`);
         soundEffect.onerror = () => {
             console.error('Failed to load sound effect:', soundFile);
         };
@@ -43,7 +43,7 @@ export class AudioService {
 
     // Evolution effect
     evolutionEffect(soundFile: string): void {
-        const soundEffect = new Audio(`/pokemon-evolution-lab/assets/audio/${soundFile}`);
+        const soundEffect = new Audio(`/pokemon-evolution-lab/src/assets/audio/${soundFile}`);
         soundEffect.play().catch(error => {
             console.error('Failed to play sound effect:', error);
         });
@@ -51,7 +51,7 @@ export class AudioService {
 
     // Task effect
     taskCompleteEffect(file: string): void {
-        const effect = new Audio(`/pokemon-evolution-lab/assets/audio/${file}`);
+        const effect = new Audio(`pokemon-evolution-lab/src/assets/audio/${file}`);
         effect.play().catch(error => console.error('Failed to play task complete effect:', error));
     }
 }

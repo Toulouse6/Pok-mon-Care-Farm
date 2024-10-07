@@ -107,8 +107,6 @@ h2 {
     font-weight: 600;
     color: #fff;
     letter-spacing: 3px;
-    width: 100px;
-    max-width: 100px;
 }
 
 .pokemonStats table td {
@@ -118,8 +116,10 @@ h2 {
 }
 
 .energy-icon {
-    width: 80px;
-    height: 80px;
+    max-width: 80px;
+    min-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
     object-fit: contain;
 }
 
