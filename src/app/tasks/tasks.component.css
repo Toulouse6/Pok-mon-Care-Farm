@@ -5,7 +5,8 @@
     border-radius: 12px;
     min-height: 56vh;
     max-height: 110vh;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     background-color: #263248;
     box-shadow: 0 4px 12px 263248(0, 0, 0, 0.1);
     min-width: 32rem;
@@ -237,7 +238,6 @@ ul {
         min-width: 26rem;
         margin: 30px auto 30px auto;
         min-height: 33vh;
-        overflow-x: hidden;
     }
 
     header .pokemonImage {
@@ -306,7 +306,6 @@ ul {
         margin: 25px auto 20px auto;
         padding: 0.5rem;
         min-height: 33vh;
-        overflow-x: hidden;
     }
 
     header {
